@@ -1,0 +1,449 @@
+[2024-12-17T11:13:15.500+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:13:15.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:13:15.530+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:13:15.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:13:15.691+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:13:15.673+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:13:15.715+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:13:17.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 2.192 seconds
+[2024-12-17T11:14:16.760+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:14:16.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:14:16.767+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:14:16.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:14:16.794+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:14:16.792+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:14:16.795+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:14:16.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.113 seconds
+[2024-12-17T11:14:47.710+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:14:47.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:14:47.718+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:14:47.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:14:47.756+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:14:47.754+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:14:47.758+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:14:47.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.182 seconds
+[2024-12-17T11:15:18.679+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:15:18.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:15:18.687+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:15:18.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:15:18.713+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:15:18.710+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:15:18.714+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:15:18.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.192 seconds
+[2024-12-17T11:15:50.044+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:15:50.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:15:50.071+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:15:50.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:15:50.163+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:15:50.152+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:15:50.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:15:50.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.325 seconds
+[2024-12-17T11:16:21.013+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:16:21.015+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:16:21.021+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:16:21.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:16:21.046+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:16:21.044+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:16:21.047+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:16:22.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 1.315 seconds
+[2024-12-17T11:16:53.383+0000] {processor.py:186} INFO - Started process (PID=434) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:16:53.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:16:53.391+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:16:53.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:16:53.418+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:16:53.416+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:16:53.419+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:16:53.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.141 seconds
+[2024-12-17T11:17:37.356+0000] {processor.py:186} INFO - Started process (PID=482) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:17:37.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:17:37.362+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:17:37.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:17:37.444+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:17:37.442+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 9
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:17:37.447+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:17:37.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.266 seconds
+[2024-12-17T11:18:02.774+0000] {processor.py:186} INFO - Started process (PID=542) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:02.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:18:02.785+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:02.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:02.976+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:02.972+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 5
+    def _training
+                 ^
+SyntaxError: expected '('
+[2024-12-17T11:18:02.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:03.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.548 seconds
+[2024-12-17T11:18:11.486+0000] {processor.py:186} INFO - Started process (PID=551) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:11.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:18:11.496+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:11.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:11.551+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:11.548+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 8
+    with DAG("my_dag",start_date=datetime(2024,12,16),
+    ^^^^
+IndentationError: expected an indented block after function definition on line 5
+[2024-12-17T11:18:11.553+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:11.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.229 seconds
+[2024-12-17T11:18:16.056+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:16.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:18:16.064+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:16.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:16.094+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:16.090+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 12
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:18:16.096+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:16.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.165 seconds
+[2024-12-17T11:18:23.861+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:23.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:18:23.886+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:23.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:23.927+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:23.925+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 12
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:18:23.929+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:24.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.175 seconds
+[2024-12-17T11:18:43.323+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:43.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:18:43.331+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:43.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:43.371+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:18:43.369+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 12
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:18:43.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:18:43.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.184 seconds
+[2024-12-17T11:19:06.885+0000] {processor.py:186} INFO - Started process (PID=666) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:06.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:19:06.941+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:06.940+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:07.044+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:07.041+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 12
+    task_id = "training_model_A"
+              ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:19:07.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:07.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 1.098 seconds
+[2024-12-17T11:19:20.805+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:20.807+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:19:20.813+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:20.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:20.844+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:20.841+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 12
+    task_id = "training_model_A"
+              
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:19:20.845+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:21.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.698 seconds
+[2024-12-17T11:19:25.767+0000] {processor.py:186} INFO - Started process (PID=693) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:25.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:19:25.827+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:25.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:26.124+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:26.121+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 12
+    task_id = "training_model_A"
+              
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-12-17T11:19:26.125+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:26.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.500 seconds
+[2024-12-17T11:19:56.527+0000] {processor.py:186} INFO - Started process (PID=749) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:56.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:19:56.535+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:56.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:56.561+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:19:56.559+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 16
+    training_model_B = PythonOperator(
+                                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-12-17T11:19:56.562+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:19:56.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.124 seconds
+[2024-12-17T11:20:03.369+0000] {processor.py:186} INFO - Started process (PID=760) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:03.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:20:03.377+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:03.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:03.413+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:03.410+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 16
+    training_model_B = PythonOperator(
+                                      ^
+IndentationError: unindent does not match any outer indentation level
+[2024-12-17T11:20:03.425+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:03.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.500 seconds
+[2024-12-17T11:20:09.794+0000] {processor.py:186} INFO - Started process (PID=778) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:09.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:20:09.802+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:09.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:09.845+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:09.843+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 11
+    training_model_A = PythonOperator(
+                                     ^
+SyntaxError: '(' was never closed
+[2024-12-17T11:20:09.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:09.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.220 seconds
+[2024-12-17T11:20:40.526+0000] {processor.py:186} INFO - Started process (PID=825) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:40.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:20:40.826+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:40.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:40.901+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:40.898+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 11
+    training_model_A = PythonOperator(
+                                     ^
+SyntaxError: '(' was never closed
+[2024-12-17T11:20:40.904+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:42.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 1.757 seconds
+[2024-12-17T11:20:48.061+0000] {processor.py:186} INFO - Started process (PID=843) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:48.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:20:48.069+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:48.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:48.328+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:20:48.111+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 16, in <module>
+    training_model_A = PythonOperator(
+                       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 975, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 256, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'training_model_A' has already been added to the DAG
+[2024-12-17T11:20:48.336+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:20:48.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.493 seconds
+[2024-12-17T11:21:19.051+0000] {processor.py:186} INFO - Started process (PID=907) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:21:19.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:21:19.094+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:21:19.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:21:19.178+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:21:19.154+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 16, in <module>
+    training_model_A = PythonOperator(
+                       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 975, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 256, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'training_model_A' has already been added to the DAG
+[2024-12-17T11:21:19.181+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:21:19.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.295 seconds
+[2024-12-17T11:21:49.659+0000] {processor.py:186} INFO - Started process (PID=971) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:21:49.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:21:49.716+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:21:49.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:21:49.800+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:21:49.768+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 16, in <module>
+    training_model_A = PythonOperator(
+                       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 975, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 256, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'training_model_A' has already been added to the DAG
+[2024-12-17T11:21:49.802+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:21:50.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.692 seconds
+[2024-12-17T11:22:20.821+0000] {processor.py:186} INFO - Started process (PID=1029) to work on /opt/airflow/dags/my_dag.py
+[2024-12-17T11:22:20.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/my_dag.py for tasks to queue
+[2024-12-17T11:22:20.833+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:22:20.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:22:20.895+0000] {logging_mixin.py:190} INFO - [2024-12-17T11:22:20.883+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_dag.py", line 16, in <module>
+    training_model_A = PythonOperator(
+                       ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 506, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 975, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/task_group.py", line 256, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'training_model_A' has already been added to the DAG
+[2024-12-17T11:22:20.897+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/my_dag.py
+[2024-12-17T11:22:21.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/my_dag.py took 0.393 seconds
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

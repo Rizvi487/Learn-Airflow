@@ -1,0 +1,32 @@
+[2024-12-24T08:30:30.513+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-24T08:30:30.574+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.choose_best_model scheduled__2024-12-24T08:28:00+00:00 [queued]>
+[2024-12-24T08:30:30.609+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.choose_best_model scheduled__2024-12-24T08:28:00+00:00 [queued]>
+[2024-12-24T08:30:30.610+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-24T08:30:30.997+0000] {taskinstance.py:2889} INFO - Executing <Task(BranchPythonOperator): choose_best_model> on 2024-12-24 08:28:00+00:00
+[2024-12-24T08:30:31.057+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1358) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-24T08:30:31.072+0000] {standard_task_runner.py:72} INFO - Started process 1367 to run task
+[2024-12-24T08:30:31.090+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'my_dag', 'choose_best_model', 'scheduled__2024-12-24T08:28:00+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmp71mid0zb']
+[2024-12-24T08:30:31.119+0000] {standard_task_runner.py:105} INFO - Job 69: Subtask choose_best_model
+[2024-12-24T08:30:31.608+0000] {task_command.py:467} INFO - Running <TaskInstance: my_dag.choose_best_model scheduled__2024-12-24T08:28:00+00:00 [running]> on host d2f0fcf0f48d
+[2024-12-24T08:30:32.440+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='my_dag' AIRFLOW_CTX_TASK_ID='choose_best_model' AIRFLOW_CTX_EXECUTION_DATE='2024-12-24T08:28:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-24T08:28:00+00:00'
+[2024-12-24T08:30:32.442+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-24T08:30:32.444+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-24T08:30:32.445+0000] {logging_mixin.py:190} INFO - Current task name:choose_best_model state:running start_date:2024-12-24 08:30:30.575635+00:00
+[2024-12-24T08:30:32.446+0000] {logging_mixin.py:190} INFO - Dag name:my_dag and current dag run status:running
+[2024-12-24T08:30:32.447+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-24T08:30:32.449+0000] {baseoperator.py:421} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2024-12-24T08:30:32.482+0000] {python.py:240} INFO - Done. Returned value was: accurate
+[2024-12-24T08:30:32.484+0000] {branch.py:38} INFO - Branch into accurate
+[2024-12-24T08:30:32.485+0000] {skipmixin.py:230} INFO - Following branch ('accurate',)
+[2024-12-24T08:30:32.499+0000] {skipmixin.py:278} INFO - Skipping tasks [('inaccurate', -1)]
+[2024-12-24T08:30:32.635+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-24T08:30:32.636+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=choose_best_model, run_id=scheduled__2024-12-24T08:28:00+00:00, execution_date=20241224T082800, start_date=20241224T083030, end_date=20241224T083032
+[2024-12-24T08:30:32.714+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-24T08:30:32.715+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-24T08:30:32.716+0000] {logging_mixin.py:190} INFO - Dag name:my_dag queued_at:2024-12-24 08:30:01.127078+00:00
+[2024-12-24T08:30:32.718+0000] {logging_mixin.py:190} INFO - Task hostname:d2f0fcf0f48d operator:BranchPythonOperator
+[2024-12-24T08:30:32.778+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-24T08:30:32.844+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-24T08:30:32.888+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
